@@ -14,7 +14,10 @@ const weeks = days * 7
  * @param date - Date to format
  * @param options - Date time formatting options to fall back to if the date does not fit in one of the units.
  */
-export function timeAgo(date: Date, options: Intl.DateTimeFormatOptions) {
+export default function timeAgo(
+  date: Date,
+  options: Intl.DateTimeFormatOptions
+) {
   const now = new Date().getTime()
   const diff = Math.round((now - date.getTime()) / 1000)
 
