@@ -1,16 +1,20 @@
 {
-  "name": "npm-template",
-  "description": "",
+  "name": "@mskelton/time-ago",
+  "description": "Formats a date using the Intl RelativeTimeFormat API with automatic unit selection.",
   "version": "0.0.0-semantically-released",
   "author": "Mark Skelton",
   "packageManager": "yarn@3.1.1",
-  "repository": "github:mskelton/npm-template",
+  "repository": "github:mskelton/time-ago",
   "bugs": {
-    "url": "https://github.com/mskelton/npm-template/issues"
+    "url": "https://github.com/mskelton/time-ago/issues"
   },
-  "homepage": "https://github.com/mskelton/npm-template#readme",
+  "homepage": "https://github.com/mskelton/time-ago#readme",
   "license": "ISC",
-  "keywords": [],
+  "keywords": [
+    "intl",
+    "relativetimeformat",
+    "timeago"
+  ],
   "type": "module",
   "files": [
     "src",

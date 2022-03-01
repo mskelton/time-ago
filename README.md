@@ -1,21 +1,25 @@
-# npm-template
+# @mskelton/time-ago
 
-[![Build status](https://github.com/mskelton/npm-template/workflows/Build/badge.svg)](https://github.com/mskelton/npm-template/actions)
+[![Build status](https://github.com/mskelton/time-ago/workflows/Build/badge.svg)](https://github.com/mskelton/time-ago/actions)
 
 ## Installation
 
 ### npm
 
 ```sh
-npm install npm-template
+npm install @mskelton/time-ago
 ```
 
 ### Yarn
 
 ```sh
-yarn add npm-template
+yarn add @mskelton/time-ago
 ```
 
 ## Usage
 
-// TODO
+```js
+import timeAgo from "@mskelton/time-ago"
+
+console.log(timeAgo(new Date())) // now
+```

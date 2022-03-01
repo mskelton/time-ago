@@ -313,6 +313,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mskelton/time-ago@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@mskelton/time-ago@workspace:."
+  dependencies:
+    "@babel/core": ^7.16.7
+    "@babel/eslint-parser": ^7.16.5
+    "@mskelton/eslint-config": ^7.1.0
+    "@mskelton/tsconfig": ^1.1.1
+    "@typescript-eslint/eslint-plugin": ^5.9.0
+    "@typescript-eslint/parser": ^5.9.0
+    eslint: ^8.6.0
+    eslint-plugin-sort: ^2.3.0
+    prettier: ^2.5.1
+    typescript: ^4.5.4
+  languageName: unknown
+  linkType: soft
+
 "@mskelton/tsconfig@npm:^1.1.1":
   version: 1.1.1
   resolution: "@mskelton/tsconfig@npm:1.1.1"
@@ -1305,23 +1322,6 @@ __metadata:
   checksum: b20dd8d4bced11f75060f0387e05e76b9dc4a0451f7bb3516eade6f50499ea7768ba95d8a60d520c193402df1e58cb3fe301510cc1c1ad68949c3d57b5149866
   languageName: node
   linkType: hard
-
-"npm-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "npm-template@workspace:."
-  dependencies:
-    "@babel/core": ^7.16.7
-    "@babel/eslint-parser": ^7.16.5
-    "@mskelton/eslint-config": ^7.1.0
-    "@mskelton/tsconfig": ^1.1.1
-    "@typescript-eslint/eslint-plugin": ^5.9.0
-    "@typescript-eslint/parser": ^5.9.0
-    eslint: ^8.6.0
-    eslint-plugin-sort: ^2.3.0
-    prettier: ^2.5.1
-    typescript: ^4.5.4
-  languageName: unknown
-  linkType: soft
 
 "once@npm:^1.3.0":
   version: 1.4.0
