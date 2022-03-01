@@ -1,6 +1,7 @@
 {
   "extends": "@mskelton/tsconfig",
   "compilerOptions": {
+    "module": "CommonJS",
     "outDir": "lib"
   },
   "include": ["src"]
