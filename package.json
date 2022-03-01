@@ -18,7 +18,6 @@
     "relativetimeformat",
     "timeago"
   ],
-  "type": "module",
   "exports": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "files": [
